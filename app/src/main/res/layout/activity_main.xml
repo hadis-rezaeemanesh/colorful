@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_red"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/red"
+                android:text="@string/color1"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_orange"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/orange"
+                android:text="@string/color2"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/yellow"
+                android:text="@string/color3"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_green"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/green"
+                android:text="@string/color4"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_blue"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/blue"
+                android:text="@string/color5"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_indigo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/indigo"
+                android:text="@string/color6"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_violet"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/violet"
+                android:text="@string/color7"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">colorful</string>
+    <string name="color1">RED</string>
+    <string name="color2">ORANGE</string>
+    <string name="color3">YELLOW</string>
+    <string name="color4">GREEN</string>
+    <string name="color5">BLUE</string>
+    <string name="color6">INDIGO</string>
+    <string name="color7">VIOLET</string>
+</resources>
